@@ -1,6 +1,40 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center">
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<EditText
+		android:id="@+id/activity_mainEditText_url"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:maxLines="4"
+		android:layout_margin="10dp"/>
+
+	<Button
+        android:text="start"
+		android:id="@+id/activity_mainButton_start"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#FF00C5FF"
+		android:layout_margin="10dp"/>
+
+	<Button
+        android:text="pause"
+		android:id="@+id/activity_mainButton_pause"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#FF00C5FF"
+		android:layout_margin="10dp"/>
+
+	<Button
+        android:text="cancel"
+		android:id="@+id/activity_mainButton_cancel"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#FF00C5FF"
+		android:layout_margin="10dp"/>
 
 </LinearLayout>
+

@@ -168,8 +168,8 @@ public class DownLoadTask extends AsyncTask<String,Integer,Integer>
             .url(downloadUrl)
             .build();
         Response response=client.newCall(request).execute();
-        if (response != null)
-        {
+        if(response != null)
+        { 
             response.close();
             long contentLength=response.body().contentLength();
             return contentLength;}
